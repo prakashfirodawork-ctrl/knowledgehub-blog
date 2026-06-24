@@ -22,10 +22,10 @@ async function loadArticles() {
 function renderHeader(activePage = '') {
   const navLinks = [
     { href: '/', label: 'Home', id: 'home' },
-    { href: '/articles.html', label: 'Articles', id: 'articles' },
-    { href: '/categories.html', label: 'Categories', id: 'categories' },
-    { href: '/about.html', label: 'About', id: 'about' },
-    { href: '/contact.html', label: 'Contact', id: 'contact' },
+    { href: 'articles.html', label: 'Articles', id: 'articles' },
+    { href: 'categories.html', label: 'Categories', id: 'categories' },
+    { href: 'about.html', label: 'About', id: 'about' },
+    { href: 'contact.html', label: 'Contact', id: 'contact' },
   ];
 
   const links = navLinks.map(link => `
