@@ -86,7 +86,7 @@ function renderHeader(activePage = '') {
           ${mobileLinks}
         </div>
         <div class="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
-          <a href="/search.html" class="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200">
+          <a href="search.html" class="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
             Search Articles
           </a>
@@ -113,7 +113,7 @@ function renderFooter() {
 
           <!-- Brand -->
           <div class="lg:col-span-2">
-            <a href="/" class="flex items-center gap-3 mb-4">
+            <a href="search.html" class="flex items-center gap-3 mb-4">
               <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-600 to-purple-800 flex items-center justify-center text-white font-bold text-xl">P</div>
               <span class="logo-text text-xl font-bold">Prakash Knowledge Hub</span>
             </a>
@@ -159,7 +159,7 @@ function renderFooter() {
           <div>
             <h4 class="footer-heading">Platform</h4>
             <div class="space-y-1">
-              <a href="/" class="footer-link">Home</a>
+              <a href="index.html" class="footer-link">Home</a>
               <a href="articles.html" class="footer-link">All Articles</a>
               <a href="about.html" class="footer-link">About Prakash</a>
               <a href="search.html" class="footer-link">Search</a>
