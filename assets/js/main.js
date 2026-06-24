@@ -382,7 +382,7 @@ function createArticleCard(article, size = 'default') {
 
   if (size === 'featured') {
     return `
-      <article class="featured-card group" onclick="window.location.href='/article.html?slug=${article.slug}'">
+      <article class="featured-card group" onclick="window.location.href='article.html?slug=${article.slug}'">
         <div class="overflow-hidden relative" style="aspect-ratio: 16/7;">
           <img
             src="${article.coverImage}"
@@ -418,7 +418,7 @@ function createArticleCard(article, size = 'default') {
   }
 
   return `
-    <article class="article-card group" onclick="window.location.href='/article.html?slug=${article.slug}'">
+    <article class="article-card group" onclick="window.location.href='article.html?slug=${article.slug}'">
       <div class="overflow-hidden relative" style="aspect-ratio: 16/9;">
         <img
           src="${article.coverImage}"
